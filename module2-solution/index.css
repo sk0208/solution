@@ -1,0 +1,110 @@
+*{
+    margin-bottom: 10px;
+ }
+ h1{
+   margin-top: 25px;
+   margin-bottom: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       text-align: center;  
+  }
+  p{  
+     margin: 0px 10px 10px 10px;
+      clear: right;
+      padding: 1px;
+  }
+   .box {
+      width: 100px;
+      height: 100%;
+      border: 2px solid black;
+      background-color:pink;
+      box-sizing: border-box;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: black;
+      font-size: 17px;
+ 
+    
+    }
+     .chicken{
+        float: right;
+        background-color: gray;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+        padding:4px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        font-size: 21.25px;
+        
+    }
+    .Beef{
+       float: right;
+       background-color:black;
+       border-left: 2px solid black;
+       border-bottom: 2px solid black;
+       padding:4px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: white;
+      font-size: 21.25px;
+ 
+    
+   }
+   .Sushi{
+    float: right;
+    background-color: coral;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding:4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: black;
+      font-size: 21.25px;
+ 
+ }
+     .container{
+      width: 100%;
+      height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow : wrap;
+      
+  }
+ @media screen and ( min-width: 992px)
+ 
+  {
+       .col-lg-4
+  {
+      float: left;
+      
+  }
+  .col-lg-4{
+    width: 30% ;
+    height:20%;
+ }
+ }
+ @media screen and ( min-width: 768px) and (max-width: 991px)
+ {
+      .col-md-6, .col-md-12 
+  {
+      float: left;
+  }
+  .col-md-6{
+    width: 45% ;
+  }
+ .col-md-12{
+    width: 95%;
+ }
+ }
+ @media screen and (max-width: 767px)
+ 
+ {
+      .col-sm-12 
+  {
+      float: left;
+  }
+  .col-sm-12{
+    width: 90%;
+ }
+ }
+ 
+ 
+ 
